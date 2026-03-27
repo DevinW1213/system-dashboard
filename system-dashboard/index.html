@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>System Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>System Monitoring Dashboard</h1>
+
+    <div class="dashboard">
+
+        <div class="card">
+            <h2>CPU Usage</h2>
+            <div class="bar"><div id="cpuBar"></div></div>
+            <p id="cpu">0%</p>
+        </div>
+
+        <div class="card">
+            <h2>Memory Usage</h2>
+            <div class="bar"><div id="memoryBar"></div></div>
+            <p id="memory">0%</p>
+        </div>
+
+        <div class="card">
+            <h2>Disk Usage</h2>
+            <div class="bar"><div id="diskBar"></div></div>
+            <p id="disk">0%</p>
+        </div>
+
+        <div class="card">
+            <h2>Status</h2>
+            <p id="status">Running</p>
+        </div>
+
+    </div>
+
+    <p id="lastUpdated"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
